@@ -1,0 +1,3 @@
+# robots.txt para Sea Salt Artesanato
+User-agent: *
+Allow: /

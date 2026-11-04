@@ -37,8 +37,8 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 32px;
-  padding: 2px 4px;
+  min-height: 48px;
+  padding: 4px 8px;
 }
 
 .top-bar__link:hover {
@@ -554,6 +554,10 @@
   margin-top: var(--space-xs);
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
   gap: 4px;
 }
 
