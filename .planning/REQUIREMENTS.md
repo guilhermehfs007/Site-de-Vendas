@@ -32,8 +32,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **PERF-01**: Imagens otimizadas em formato WebP com fallback JPEG (`<picture>`) e atributos `width`/`height` explícitos
 - [x] **PERF-02**: Lazy loading nativo (`loading="lazy"`) em imagens abaixo da dobra e `fetchpriority="high"` na imagem hero
 - [x] **PERF-03**: Meta tags de SEO completas (`<title>`, `<meta description>`, Open Graph para preview no WhatsApp/Instagram)
-- [ ] **PERF-04**: Alvos de toque (tap targets) mínimos de 48px e contraste acessível (WCAG AA) em botões e textos
-- [ ] **PERF-05**: Código estático puro (HTML5 + CSS3 + Vanilla JS) pronto para deploy gratuito (Netlify / GitHub Pages)
+- [x] **PERF-04**: Alvos de toque (tap targets) mínimos de 48px e contraste acessível (WCAG AA) em botões e textos
+- [x] **PERF-05**: Código estático puro (HTML5 + CSS3 + Vanilla JS) pronto para deploy gratuito (Netlify / GitHub Pages)
 
 ## v2 Requirements
 
@@ -77,8 +77,8 @@ Which phases cover which requirements.
 | PERF-01 | Phase 1 | Complete |
 | PERF-02 | Phase 2 | Complete |
 | PERF-03 | Phase 2 | Complete |
-| PERF-04 | Phase 3 | Pending |
-| PERF-05 | Phase 3 | Pending |
+| PERF-04 | Phase 3 | Complete |
+| PERF-05 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 16 total
