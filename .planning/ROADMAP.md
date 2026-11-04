@@ -25,7 +25,7 @@ Construção de um site vitrine de página única para o ateliê de crochê Sea 
   2. Tokens CSS definem a paleta (bege, terracota, verde-sálvia, off-white, marrom) e as fontes Playfair Display e Lato carregadas de forma não bloqueante.
   3. A estrutura da página única (`index.html`) e o grid responsivo de produtos renderizam harmoniosamente no celular e desktop.
   4. Cada card de produto possui nome e descrição concisa em português gerados para valorizar o crochê artesanal, exibindo "Consulte valores".
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
 - [ ] 01-01: Otimização de imagens e design tokens CSS
