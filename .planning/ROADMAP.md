@@ -56,7 +56,7 @@ Plans:
   2. As combinações de cores entre texto e fundo atendem aos critérios de contraste WCAG AA.
   3. O site carrega suavemente em viewports de 320px até desktop sem quebras de layout ou overflow horizontal.
   4. Projeto limpo, sem caminhos absolutos locais, pronto para hospedagem no Netlify ou GitHub Pages.
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
 - [ ] 03-01: Auditoria de responsividade, acessibilidade e preparação para deploy
