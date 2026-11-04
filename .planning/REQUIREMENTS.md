@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Catalog & Products (CAT)
 
-- [ ] **CAT-01**: Galeria exibe as 7 peças da pasta `/imagem` (bolsa-vermelha, bolsinha, camisa, case-de-notebook, regata-verde, short-vermelho-e-branco, supla)
-- [ ] **CAT-02**: Cada card de produto possui nome e descrição curta gerados e adequados ao artesanato em crochê
-- [ ] **CAT-03**: Cada produto exibe "Consulte valores" claramente (sem preço numérico fixo)
-- [ ] **CAT-04**: Layout em grid responsivo para produtos (1-2 colunas no mobile, 3 colunas em telas maiores)
+- [x] **CAT-01**: Galeria exibe as 7 peças da pasta `/imagem` (bolsa-vermelha, bolsinha, camisa, case-de-notebook, regata-verde, short-vermelho-e-branco, supla)
+- [x] **CAT-02**: Cada card de produto possui nome e descrição curta gerados e adequados ao artesanato em crochê
+- [x] **CAT-03**: Cada produto exibe "Consulte valores" claramente (sem preço numérico fixo)
+- [x] **CAT-04**: Layout em grid responsivo para produtos (1-2 colunas no mobile, 3 colunas em telas maiores)
 
 ### WhatsApp & Contacts (CTA)
 
@@ -22,14 +22,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Visual & Layout (VIS)
 
-- [ ] **VIS-01**: Página única mobile-first com fluxo: Topo/Hero, Galeria, Sobre a Artesã, Contato e Rodapé
-- [ ] **VIS-02**: Paleta acolhedora e artesanal com variáveis CSS (bege `#f5efe6`, terracota `#c47b55`, verde-sálvia `#7a9e7e`, off-white `#faf7f2`, texto `#3b2f2f`)
-- [ ] **VIS-03**: Tipografia com Google Fonts: Playfair Display nos títulos e Lato no corpo
+- [x] **VIS-01**: Página única mobile-first com fluxo: Topo/Hero, Galeria, Sobre a Artesã, Contato e Rodapé
+- [x] **VIS-02**: Paleta acolhedora e artesanal com variáveis CSS (bege `#f5efe6`, terracota `#c47b55`, verde-sálvia `#7a9e7e`, off-white `#faf7f2`, texto `#3b2f2f`)
+- [x] **VIS-03**: Tipografia com Google Fonts: Playfair Display nos títulos e Lato no corpo
 - [ ] **VIS-04**: Seção "Sobre a Artesã" estruturada contendo o placeholder `[inserir texto aqui]` e foto/espaço representativo
 
 ### Performance, Acessibilidade & SEO (PERF)
 
-- [ ] **PERF-01**: Imagens otimizadas em formato WebP com fallback JPEG (`<picture>`) e atributos `width`/`height` explícitos
+- [x] **PERF-01**: Imagens otimizadas em formato WebP com fallback JPEG (`<picture>`) e atributos `width`/`height` explícitos
 - [ ] **PERF-02**: Lazy loading nativo (`loading="lazy"`) em imagens abaixo da dobra e `fetchpriority="high"` na imagem hero
 - [ ] **PERF-03**: Meta tags de SEO completas (`<title>`, `<meta description>`, Open Graph para preview no WhatsApp/Instagram)
 - [ ] **PERF-04**: Alvos de toque (tap targets) mínimos de 48px e contraste acessível (WCAG AA) em botões e textos
@@ -63,18 +63,18 @@ Which phases cover which requirements.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CAT-01 | Phase 1 | Pending |
-| CAT-02 | Phase 1 | Pending |
-| CAT-03 | Phase 1 | Pending |
-| CAT-04 | Phase 1 | Pending |
-| VIS-01 | Phase 1 | Pending |
-| VIS-02 | Phase 1 | Pending |
-| VIS-03 | Phase 1 | Pending |
+| CAT-01 | Phase 1 | Complete |
+| CAT-02 | Phase 1 | Complete |
+| CAT-03 | Phase 1 | Complete |
+| CAT-04 | Phase 1 | Complete |
+| VIS-01 | Phase 1 | Complete |
+| VIS-02 | Phase 1 | Complete |
+| VIS-03 | Phase 1 | Complete |
 | VIS-04 | Phase 2 | Pending |
 | CTA-01 | Phase 2 | Pending |
 | CTA-02 | Phase 2 | Pending |
 | CTA-03 | Phase 2 | Pending |
-| PERF-01 | Phase 1 | Pending |
+| PERF-01 | Phase 1 | Complete |
 | PERF-02 | Phase 2 | Pending |
 | PERF-03 | Phase 2 | Pending |
 | PERF-04 | Phase 3 | Pending |
