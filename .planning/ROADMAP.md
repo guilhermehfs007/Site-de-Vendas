@@ -41,7 +41,7 @@ Plans:
   3. Os contatos (WhatsApp, Instagram, e-mail e cidade Ribeirão Preto) aparecem claramente no topo, na seção de contato e no rodapé.
   4. A seção "Sobre a Artesã" exibe o placeholder `[inserir texto aqui]` com layout pronto para revisão.
   5. Imagens abaixo da dobra utilizam `loading="lazy"` e a imagem hero utiliza `fetchpriority="high"`, com meta tags Open Graph e SEO presentes no `<head>`.
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
 - [ ] 02-01: Integrações WhatsApp (por produto e botão flutuante) e contatos
