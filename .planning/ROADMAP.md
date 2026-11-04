@@ -11,7 +11,7 @@ Construção de um site vitrine de página única para o ateliê de crochê Sea 
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
 - [x] **Phase 1: Estrutura Base, Design System & Imagens** - Setup de arquivos, tokens CSS, conversão WebP e grid de produtos
-- [ ] **Phase 2: Conteúdo, Interatividade & WhatsApp** - Botões wa.me, CTA flutuante, seção Sobre, SEO e metadados
+- [x] **Phase 2: Conteúdo, Interatividade & WhatsApp** - Botões wa.me, CTA flutuante, seção Sobre, SEO e metadados
 - [ ] **Phase 3: Refinamento Mobile, Acessibilidade & Deploy** - Auditoria de contraste WCAG, alvos de toque, responsividade e deploy
 
 ## Phase Details
@@ -44,8 +44,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Integrações WhatsApp (por produto e botão flutuante) e contatos
-- [ ] 02-02: Seção Sobre a Artesã, SEO e meta tags sociais
+- [x] 02-01: Integrações WhatsApp (por produto e botão flutuante) e contatos
+- [x] 02-02: Seção Sobre a Artesã, SEO e meta tags sociais
 
 ### Phase 3: Refinamento Mobile, Acessibilidade & Deploy
 **Goal**: Garantir conformidade com acessibilidade (contraste WCAG AA e área de toque mínima de 48px), testar a experiência mobile em diferentes viewports e preparar os arquivos para deploy estático gratuito.
@@ -69,5 +69,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Estrutura Base, Design System & Imagens | 2/2 | Complete | 2026-11-04 |
-| 2. Conteúdo, Interatividade & WhatsApp | 0/2 | Not started | - |
+| 2. Conteúdo, Interatividade & WhatsApp | 2/2 | Complete | 2026-11-04 |
 | 3. Refinamento Mobile, Acessibilidade & Deploy | 0/1 | Not started | - |

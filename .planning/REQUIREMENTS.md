@@ -16,22 +16,22 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### WhatsApp & Contacts (CTA)
 
-- [ ] **CTA-01**: Cada card possui botão "Pedir pelo WhatsApp" com link direto `wa.me/5512997817407` e mensagem pré-preenchida citando o nome da respectiva peça
-- [ ] **CTA-02**: Botão flutuante fixo no canto inferior com mensagem genérica: "Olá! Vi o site da Sea Salt Artesanato e quero saber mais 😊"
-- [ ] **CTA-03**: Informações de contato completas (WhatsApp +55 12 99781-7407, Instagram @_sea_salt_artesanato, e-mail monteiro.graziele@gmail.com, Ribeirão Preto-SP) exibidas no topo, seção de contato e rodapé
+- [x] **CTA-01**: Cada card possui botão "Pedir pelo WhatsApp" com link direto `wa.me/5512997817407` e mensagem pré-preenchida citando o nome da respectiva peça
+- [x] **CTA-02**: Botão flutuante fixo no canto inferior com mensagem genérica: "Olá! Vi o site da Sea Salt Artesanato e quero saber mais 😊"
+- [x] **CTA-03**: Informações de contato completas (WhatsApp +55 12 99781-7407, Instagram @_sea_salt_artesanato, e-mail monteiro.graziele@gmail.com, Ribeirão Preto-SP) exibidas no topo, seção de contato e rodapé
 
 ### Visual & Layout (VIS)
 
 - [x] **VIS-01**: Página única mobile-first com fluxo: Topo/Hero, Galeria, Sobre a Artesã, Contato e Rodapé
 - [x] **VIS-02**: Paleta acolhedora e artesanal com variáveis CSS (bege `#f5efe6`, terracota `#c47b55`, verde-sálvia `#7a9e7e`, off-white `#faf7f2`, texto `#3b2f2f`)
 - [x] **VIS-03**: Tipografia com Google Fonts: Playfair Display nos títulos e Lato no corpo
-- [ ] **VIS-04**: Seção "Sobre a Artesã" estruturada contendo o placeholder `[inserir texto aqui]` e foto/espaço representativo
+- [x] **VIS-04**: Seção "Sobre a Artesã" estruturada contendo o placeholder `[inserir texto aqui]` e foto/espaço representativo
 
 ### Performance, Acessibilidade & SEO (PERF)
 
 - [x] **PERF-01**: Imagens otimizadas em formato WebP com fallback JPEG (`<picture>`) e atributos `width`/`height` explícitos
-- [ ] **PERF-02**: Lazy loading nativo (`loading="lazy"`) em imagens abaixo da dobra e `fetchpriority="high"` na imagem hero
-- [ ] **PERF-03**: Meta tags de SEO completas (`<title>`, `<meta description>`, Open Graph para preview no WhatsApp/Instagram)
+- [x] **PERF-02**: Lazy loading nativo (`loading="lazy"`) em imagens abaixo da dobra e `fetchpriority="high"` na imagem hero
+- [x] **PERF-03**: Meta tags de SEO completas (`<title>`, `<meta description>`, Open Graph para preview no WhatsApp/Instagram)
 - [ ] **PERF-04**: Alvos de toque (tap targets) mínimos de 48px e contraste acessível (WCAG AA) em botões e textos
 - [ ] **PERF-05**: Código estático puro (HTML5 + CSS3 + Vanilla JS) pronto para deploy gratuito (Netlify / GitHub Pages)
 
@@ -70,13 +70,13 @@ Which phases cover which requirements.
 | VIS-01 | Phase 1 | Complete |
 | VIS-02 | Phase 1 | Complete |
 | VIS-03 | Phase 1 | Complete |
-| VIS-04 | Phase 2 | Pending |
-| CTA-01 | Phase 2 | Pending |
-| CTA-02 | Phase 2 | Pending |
-| CTA-03 | Phase 2 | Pending |
+| VIS-04 | Phase 2 | Complete |
+| CTA-01 | Phase 2 | Complete |
+| CTA-02 | Phase 2 | Complete |
+| CTA-03 | Phase 2 | Complete |
 | PERF-01 | Phase 1 | Complete |
-| PERF-02 | Phase 2 | Pending |
-| PERF-03 | Phase 2 | Pending |
+| PERF-02 | Phase 2 | Complete |
+| PERF-03 | Phase 2 | Complete |
 | PERF-04 | Phase 3 | Pending |
 | PERF-05 | Phase 3 | Pending |
 
