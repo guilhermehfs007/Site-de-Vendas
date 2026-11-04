@@ -247,8 +247,8 @@
 
 .btn--fab {
   position: fixed;
-  bottom: 24px;
-  right: 20px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  right: calc(20px + env(safe-area-inset-right, 0px));
   width: 58px;
   height: 58px;
   border-radius: var(--radius-full);
@@ -260,6 +260,30 @@
   box-shadow: var(--shadow-fab);
   z-index: 9999;
   transition: transform var(--transition-normal), background-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn--fab::before {
+  content: 'Falar no WhatsApp';
+  position: absolute;
+  right: calc(100% + 12px);
+  background-color: #2b2222;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(8px);
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn--fab:hover::before,
+.btn--fab:focus-visible::before {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .btn--fab:hover {

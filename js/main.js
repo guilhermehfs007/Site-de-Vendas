@@ -42,4 +42,21 @@
       });
     }
   });
+
+  // 4. Registro de intenção de compra e cliques no WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function (waLink) {
+    waLink.addEventListener('click', function () {
+      var itemLabel = this.getAttribute('aria-label') || 'WhatsApp CTA';
+      try {
+        if (window.sessionStorage) {
+          var count = parseInt(sessionStorage.getItem('wa_clicks') || '0', 10) + 1;
+          sessionStorage.setItem('wa_clicks', count.toString());
+        }
+      } catch (err) {
+        // sessionStorage restrito
+      }
+      // Log amigável para depuração local
+      console.info('WhatsApp CTA clicado: ' + itemLabel);
+    });
+  });
 })();
