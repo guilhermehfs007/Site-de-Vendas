@@ -3,16 +3,21 @@
    ========================================================================== */
 
 :root {
-  /* Paleta Artesanal e Acolhedora */
-  --color-bg: #faf7f2;              /* Off-white suave de fundo */
-  --color-surface: #f5efe6;         /* Bege acolhedor para cartões e áreas destacadas */
-  --color-surface-hover: #ede5da;   /* Bege sutil para interações */
-  --color-primary: #c47b55;         /* Terracota tradicional */
-  --color-primary-dark: #9e5c38;    /* Terracota escuro (garante WCAG AA sobre branco) */
-  --color-accent: #7a9e7e;          /* Verde-sálvia */
-  --color-accent-dark: #58795c;     /* Verde-sálvia escuro */
-  --color-text: #3b2f2f;            /* Marrom profundo elegante e de alta legibilidade */
-  --color-text-muted: #6e5e54;      /* Marrom suave para descrições e legendas */
+  /* Paleta Artesanal e Acolhedora (Atualizada) */
+  --color-coral: #FC9186;
+  --color-azul-acinzentado: #566874;
+  --color-agua-marinha: #C6F6F6;
+  --color-mostarda: #E1CC3B;
+
+  --color-bg: #f5fbfa;              /* Água-marinha ultra suave/off-white de fundo */
+  --color-surface: #e2f6f6;         /* Água-marinha suave para cartões e áreas destacadas */
+  --color-surface-hover: #C6F6F6;   /* Água-marinha viva para interações */
+  --color-primary: #FC9186;         /* Coral acolhedor */
+  --color-primary-dark: #d8655a;    /* Coral escuro (garante WCAG AA sobre fundos claros) */
+  --color-accent: #E1CC3B;          /* Mostarda artesanal */
+  --color-accent-dark: #b8a31d;     /* Mostarda escuro */
+  --color-text: #2c3942;            /* Azul escuro profundo elegante e de alta legibilidade */
+  --color-text-muted: #566874;      /* Azul-acinzentado para descrições e legendas */
   --color-white: #ffffff;
   --color-whatsapp: #25d366;        /* Verde oficial WhatsApp */
   --color-whatsapp-dark: #128c7e;
