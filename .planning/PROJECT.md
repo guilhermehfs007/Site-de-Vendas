@@ -30,7 +30,7 @@ O cliente vê a peça, se encanta, e chama a artesã no WhatsApp em menos de doi
 - [ ] Contatos visíveis no topo, em seção própria e no rodapé: WhatsApp +55 12 99781-7407, Instagram @_sea_salt_artesanato, e-mail monteiro.graziele@gmail.com, cidade Ribeirão Preto-SP
 - [ ] Botão flutuante de WhatsApp com mensagem genérica: "Olá! Vi o site da Sea Salt Artesanato e quero saber mais 😊"
 - [ ] Mobile-first, design responsivo
-- [ ] Visual acolhedor e artesanal — paleta: bege, terracota, verde-sálvia
+- [ ] Visual acolhedor e artesanal — paleta: coral (#FC9186), azul-acinzentado (#566874), água-marinha (#C6F6F6), mostarda (#E1CC3B)
 - [ ] Tipografia: Playfair Display (títulos) + Lato (corpo), via Google Fonts
 - [ ] HTML/CSS/JS puro, sem backend
 - [ ] Imagens em WebP com lazy loading
@@ -52,7 +52,7 @@ O cliente vê a peça, se encanta, e chama a artesã no WhatsApp em menos de doi
 - **Fotos disponíveis**: 7 imagens JPG na pasta `/imagem` — serão convertidas para WebP
 - **Stack**: HTML5 + CSS3 + JS vanilla; Google Fonts para tipografia
 - **Deploy**: GitHub Pages, Netlify ou Vercel (gratuito, sem servidor)
-- **Paleta visual**: bege (#f5efe6), terracota (#c47b55), verde-sálvia (#7a9e7e), off-white (#faf7f2)
+- **Paleta visual**: coral (#FC9186), azul-acinzentado (#566874), água-marinha (#C6F6F6), mostarda (#E1CC3B)
 - **Contato principal**: WhatsApp +55 12 99781-7407 (wa.me/5512997817407)
 
 ## Constraints
