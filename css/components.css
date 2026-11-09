@@ -45,6 +45,15 @@
   color: var(--color-primary-dark);
 }
 
+.top-bar__icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -264,6 +273,16 @@
   color: var(--color-white);
 }
 
+.btn__icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .btn--fab {
   position: fixed;
   bottom: calc(20px + env(safe-area-inset-bottom, 0px));
@@ -312,10 +331,12 @@
   color: var(--color-white);
 }
 
-.btn--fab svg {
-  width: 32px;
-  height: 32px;
-  fill: currentColor;
+.btn--fab svg,
+.btn--fab__img {
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: contain;
 }
 
 /* --------------------------------------------------------------------------
@@ -556,6 +577,13 @@
   color: var(--color-primary-dark);
 }
 
+.contact-card__img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  object-fit: contain;
+}
+
 .contact-card__title {
   font-size: 1.15rem;
   margin-bottom: 4px;
@@ -626,6 +654,15 @@
 
 .site-footer__link:hover {
   color: var(--color-white);
+}
+
+.site-footer__icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  object-fit: contain;
 }
 
 .site-footer__bottom {
